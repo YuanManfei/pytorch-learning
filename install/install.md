@@ -19,3 +19,9 @@ active virtual environment env_torch and install pytorch
 ```
 conda activate env_torch
 ```
+Go to https://pytorch.org/get-started/locally/
+Select your preferences and run the install command.
+![plot](https://github.com/YuanManfei/pytorch-learning/blob/main/install/img/install.png)
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+```
